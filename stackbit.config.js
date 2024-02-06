@@ -11,7 +11,7 @@ import { SiteConfig } from './.stackbit/models/SiteConfig';
 export default sbConfig = {
     stackbitVersion: '~0.6.0',
     ssgName: 'nextjs',
-    nodeVersion: '16',
+    nodeVersion: '16',,,
     contentSources: [
         new GitContentSource({
             rootPath: __dirname,
